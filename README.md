@@ -57,14 +57,15 @@ public class ContaBancaria {
     }
 }
 
+```
 
-
-Classe de Teste Unitário (ContaBancariaTest.java)
+## 2. Classe de Teste Unitário (ContaBancariaTest.java)
 Utiliza o padrão AAA para organizar cada cenário de teste
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+```java
 class ContaBancariaTest {
 
     @Test
@@ -110,7 +111,8 @@ Confiabilidade no Deploy: Reduzem testes manuais repetitivos, garantindo entrega
 ## 📖 Como executar
 1. Clone o repositório.
 2. Abra o projeto em sua IDE (IntelliJ IDEA, VS Code ou Eclipse).
-@@ -98,3 +113,5 @@
+3. Navegue até a pasta `src/test/java/`.
+4. Clique com o botão direito no arquivo de teste e selecione **"Run Tests"**.
 
 ---
 Feito com ❤️ por Vilcler Estumano
