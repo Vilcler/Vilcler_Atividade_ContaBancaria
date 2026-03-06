@@ -27,6 +27,7 @@ As operações seguem validações de segurança para evitar estados inconsisten
 ### 1. Classe de Negócio (`ContaBancaria.java`)
 Gerencia o estado do saldo e as operações financeiras.
 
+```java
 public class ContaBancaria {
     private double saldo;
 
@@ -70,10 +71,10 @@ class ContaBancariaTest {
     void deveDepositarValorValido() {
         // Arrange (Organizar)
         ContaBancaria conta = new ContaBancaria(100.0);
-        
+
         // Act (Agir)
         conta.depositar(50.0);
-        
+
         // Assert (Verificar)
         assertEquals(150.0, conta.getSaldo());
     }
@@ -82,14 +83,14 @@ class ContaBancariaTest {
     void deveLancarExcecaoParaSaldoInsuficiente() {
         // Arrange
         ContaBancaria conta = new ContaBancaria(50.0);
-        
+
         // Act & Assert
         assertThrows(IllegalStateException.class, () -> conta.sacar(100.0));
     }
 }
+```
 
 
----
 
 🧪 Por que Testes Automatizados?
 Os testes automatizados ajudam a garantir a qualidade do software em 5 pontos chave:
@@ -104,15 +105,12 @@ Refatoração Segura: Permitem melhorar o código com a confiança de que o comp
 
 Confiabilidade no Deploy: Reduzem testes manuais repetitivos, garantindo entregas mais estáveis.
 
----
+
 
 ## 📖 Como executar
 1. Clone o repositório.
 2. Abra o projeto em sua IDE (IntelliJ IDEA, VS Code ou Eclipse).
-3. Navegue até a pasta `src/test/java`.
-4. Clique com o botão direito no arquivo de teste e selecione **"Run Tests"**.
+@@ -98,3 +113,5 @@
 
 ---
 Feito com ❤️ por Vilcler Estumano
-
-
