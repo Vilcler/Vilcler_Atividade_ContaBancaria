@@ -114,5 +114,7 @@ Confiabilidade no Deploy: Reduzem testes manuais repetitivos, garantindo entrega
 3. Navegue até a pasta `src/test/java/`.
 4. Clique com o botão direito no arquivo de teste e selecione **"Run Tests"**.
 
+<img width="1918" height="1076" alt="Captura de tela 2026-03-06 031613" src="https://github.com/user-attachments/assets/5cbb3317-dba3-4eaa-bdac-ee34ab20960a" />
+
 ---
 Feito com ❤️ por Vilcler Estumano
