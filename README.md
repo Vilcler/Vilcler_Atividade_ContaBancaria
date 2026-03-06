@@ -90,6 +90,21 @@ class ContaBancariaTest {
 }
 
 
+
+
+🧪 Por que Testes Automatizados?
+Os testes automatizados ajudam a garantir a qualidade do software em 5 pontos chave:
+
+Prevenção de Regressões: Garantem que novas funcionalidades não quebrem o que já funciona.
+
+Feedback Imediato: Detectam erros de lógica e falhas no momento em que o código é escrito.
+
+Documentação Viva: Demonstram exatamente como cada parte do sistema deve se comportar.
+
+Refatoração Segura: Permitem melhorar o código com a confiança de que o comportamento permanece intacto.
+
+Confiabilidade no Deploy: Reduzem testes manuais repetitivos, garantindo entregas mais estáveis.
+
 ## 📖 Como executar
 1. Clone o repositório.
 2. Abra o projeto em sua IDE (IntelliJ IDEA, VS Code ou Eclipse).
@@ -98,3 +113,5 @@ class ContaBancariaTest {
 
 ---
 Feito com ❤️ por Vilcler Estumano
+
+
